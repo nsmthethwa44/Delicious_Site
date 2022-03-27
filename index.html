@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Recipes landing page</title>
+
+  <!--custome css-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--header-->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="logo">
+        <h2>Delicious<span>Smooth Dishes</span></h2>
+      </div>
+
+      <div class="navbar">
+        <ul class="nav">
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#instagram">Instagram</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="menuImg"></div>
+    </div>
+  </header>
+  <!--end header-->
+
+  <!--home-->
+  <section class="home" id="home">
+    <div class="container">
+      <div class="content">
+        <h3>New Restuarant In Town</h3>
+        <h2>Enjoy Our Special Menus</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Omnis odit dignissimos molestias consequuntur voluptatibus sint autem 
+          minus ipsum quam, eum dolores nostrum earum doloribus
+           nulla vero molestiae repellendus ad dolorem!</p>
+           <div class="button">
+             <a href="#menu"><button class="btn">Check Our Menu</button></a>
+           </div>
+      </div>
+    </div>
+  </section>
+  <!--end home-->
+
+  <!--about section-->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="box">
+        <div class="content">
+          <h3>About Our Story</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum totam placeat cum 
+            laboriosam praesentium neque deserunt, quis blanditiis distinctio
+             sapiente quod similique iure ullam, commodi deleniti aliquid voluptas voluptates animi! Lorem ipsum 
+             dolor sit amet consectetur adipisicing elit. Nisi animi id totam vero nesciunt nihil, quas natus veritatis! 
+             Placeat pariatur, cumque harum velit at amet 
+             exercitationem et perspiciatis perferendis soluta?</p>
+
+             <div class="button">
+               <a href="#menu"><button class="btn">View Full Menu</button></a>
+             </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgbox">
+          <img src="img/about_img.jpg" alt="">
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--end about section-->
+
+<!--menu section-->
+<section class="menu" id="menu">
+  <div class="container">
+    <div class="title">
+      <h3>We Serve You Best Kind Of Food</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    </div>
+    <div class="menu_nav">
+      <ul class="nav">
+        <li><a class="active" href="#menu" data-filter="All" >All Menu</a></li>
+        <li><a href="#menu" data-filter="breackfast" >Breackfast</a></li>
+        <li><a href="#menu" data-filter="meat" >Meat</a></li>
+        <li><a href="#menu" data-filter="cake" >Cake</a></li>
+        <li><a href="#menu" data-filter="burger" >Burger</a></li>
+        <li><a href="#menu" data-filter="drinks" >Drinks</a></li>
+      </ul>
+    </div>
+
+    <div class="container_box">
+      <div class="box">
+        <div class="menu_content breackfast">
+          <img src="img/breackfast_1.png" alt="">
+         <div class="text">
+          <div class="foodName">
+            <h4>Food Name</h4>
+            <span class="price">R55.00</span>
+          </div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit.</p>
+         </div>
+        </div>
+        <div class="menu_content cake">
+          <img src="img/cake.jpg" alt="">
+          <div class="text">
+            <div class="foodName">
+              <h4>Food Name</h4>
+              <span class="price">R34.00</span>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <div class="menu_content meat">
+          <img src="img/meat.jpg" alt="">
+          <div class="text">
+            <div class="foodName">
+              <h4>Food Name</h4>
+              <span class="price">R94.00</span>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+      
+      </div>
+      <div class="box">
+        <div class="menu_content breackfast">
+          <img src="img/breackfast_2.jpg" alt="">
+         <div class="text">
+          <div class="foodName">
+            <h4>Food Name</h4>
+            <span class="price">R13.00</span>
+          </div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit.</p>
+         </div>
+        </div>
+        <div class="menu_content drinks">
+          <img src="img/drinks.jpg" alt="">
+         <div class="text">
+          <div class="foodName">
+            <h4>Food Name</h4>
+            <span class="price">R10.00</span>
+          </div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit.</p>
+         </div>
+        </div>
+        <div class="menu_content burger">
+          <img src="img/burger.jpg" alt="">
+          <div class="text">
+            <div class="foodName">
+              <h4>Food Name</h4>
+              <span class="price">R60.00</span>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--end menu-->
+
+<!--reservation section-->
+<section class="reservation" id="reservation">
+  <div class="container">
+    <div class="container_box">
+      <div class="box">
+        <div class="content">
+          <h3>Why Not Reserve Your Seats? Come with Your Family</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia veritatis earum 
+            praesentium. Quia fugiat eos deleniti commodi mollitia nostrum blanditiis inventore soluta 
+            necessitatibus accusamus voluptatibus quod magnam hic, quaerat magni.</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="reservation_form">
+          <form action="" class="form">
+            <h4>Complete Reservation Form</h4>
+            <div class="inputboxes">
+              <input type="text" name="name" class="textbox" placeholder="Your Name" required>
+              <input type="email" name="email" class="textbox" placeholder="Your Email Address" required>
+              <input type="text" name="phone" class="textbox" placeholder="Your Phone" required>
+              <input type="date" name="datetime" id="" class="textbox" placeholder="Choose Date" required>
+              <input type="number" name="" id="" placeholder="Naumber Of Seats" class="textbox" >
+            </div>
+            <div class="buttons">
+              <a href="#menu"><button class="btn">Make Reservation</button></a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--end reservation-->
+
+<!--gallery-->
+<section class="gallery" id="gallery">
+  <div class="container">
+    <div class="title">
+      <h3>Food loved by Our customers</h3>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <div class="menu_nav">
+      <ul class="nav">
+        <li><a class="active" href="#gallery" data-filter="All" >All Menu</a></li>
+        <li><a href="#gallery" data-filter="breackfast" >Breackfast</a></li>
+        <li><a href="#gallery" data-filter="meat" >Meat</a></li>
+        <li><a href="#gallery" data-filter="cake" >Cake</a></li>
+        <li><a href="#gallery" data-filter="burger" >Burger</a></li>
+        <li><a href="#gallery" data-filter="drinks" >Drinks</a></li>
+      </ul>
+    </div>
+
+    <div class="container_box">
+      <div class="box breackfast">
+        <div class="imgbox"><img src="img/gallery_bf_1.jpg" alt=""></div>
+        <div class="text">
+          <div class="foodName">
+            <h4>Food Name</h4>
+            <span>R545.00</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div class="box burger drinks">
+        <div class="imgbox"><img src="img/gallery_burger.jpg" alt=""></div>
+        <div class="text">
+          <div class="foodName">
+            <h4>Food Name</h4>
+            <span>R245.00</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div class="box meat cake">
+        <div class="imgbox"><img src="img/gallery_meat.jpg" alt=""></div>
+        <div class="text">
+          <div class="foodName">
+            <h4>Food Name</h4>
+            <span>R105.00</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div class="box cake meat">
+        <div class="imgbox"><img src="img/gallery_cake.jpg" alt=""></div>
+        <div class="text">
+          <div class="foodName">
+            <h4>Food Name</h4>
+            <span>R5.00</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div class="box breackfast">
+        <div class="imgbox"><img src="img//gallery_bf_2.jpg" alt=""></div>
+        <div class="text">
+          <div class="foodName">
+            <h4>Food Name</h4>
+            <span>R75.00</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div class="box drinks burger">
+        <div class="imgbox"><img src="img/gallery_drink.jpg" alt=""></div>
+        <div class="text">
+          <div class="foodName">
+            <h4>Food Name</h4>
+            <span>R85.00</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--end gallery-->
+
+<!--reviews-->
+<section class="reviews" id="reviews">
+  <div class="container">
+    <div class="title">
+      <h3>Customer Reviews</h3>
+    </div>
+    <div class="container_box">
+      <div class="content">
+        <div class="box two">
+            <img class="reviewImg" src="img/review_1.jpg" alt="">
+            <h4>Dave</h4>
+            <div class="stars">
+              <img src="img/star_17px.png" alt="">
+              <img src="img/star_17px.png" alt="">
+              <img src="img/star_17px.png" alt="">
+              <img src="img/star_17px.png" alt="">
+              <img src="img/star_17px1.png" alt="">
+            </div>
+            <div class="text">
+              <p>Lorem ipsum dolor sit, amet consectetur a
+                dipisicing elit. Maiores rem fugit enim fuga ea veritatis. Rem,
+                 voluptate atque doloribus ut, aliquam facilis
+                  perspiciatis nam sunt ipsum dicta ducimus dolorum esse.</p>
+            </div>
+        </div>
+        <div class="box one">
+          <img class="reviewImg" src="img/review_2.jpg" alt="">
+          <h4>Bonnie Bennet</h4>
+          <div class="stars">
+            <img src="img/star_17px.png" alt="">
+            <img src="img/star_17px.png" alt="">
+            <img src="img/star_17px.png" alt="">
+            <img src="img/star_17px.png" alt="">
+            <img src="img/star_17px1.png" alt="">
+          </div>
+          <div class="text">
+            <p>Lorem ipsum dolor sit, amet consectetur a
+              dipisicing elit. Maiores rem fugit enim fuga ea veritatis. Rem,
+               voluptate atque doloribus ut, aliquam facilis
+                perspiciatis nam sunt ipsum dicta ducimus dolorum esse.</p>
+          </div>
+        </div>
+        <div class="box three">
+          <img class="reviewImg" src="img/review_3.jpg" alt="">
+          <h4>Katherina</h4>
+          <div class="stars">
+            <img src="img/star_17px.png" alt="">
+            <img src="img/star_17px.png" alt="">
+            <img src="img/star_17px.png" alt="">
+            <img src="img/star_17px.png" alt="">
+            <img src="img/star_17px1.png" alt="">
+          </div>
+          <div class="text">
+            <p>Lorem ipsum dolor sit, amet consectetur a
+              dipisicing elit. Maiores rem fugit enim fuga ea veritatis. Rem,
+               voluptate atque doloribus ut, aliquam facilis
+                perspiciatis nam sunt ipsum dicta ducimus dolorum esse.</p>
+          </div>
+        </div>
+      </div>
+     <div class="selector">
+       <span class="active" data-filter="one"></span>
+       <span data-filter="two"></span>
+       <span data-filter="three"></span>
+     </div>
+    </div>v
+  </div>
+</section>
+<!--end reviews-->
+
+
+<!--instagram post-->
+<section class="instagram" id="instagram">
+  <div class="container">
+    <div class="title">
+      <h3>Latest From Our Instagram</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, eligendi fugiat?</p>
+    </div>
+
+    <div class="container_box">
+      <div class="box">
+        <div class="imgbox">
+          <img src="img/post_1.jpg" alt="">
+        </div>
+        <div class="text">
+          <span>12 Jan 2022</span>
+          <h4>It's How many Times You Fall That Matters, Just Get up and try Again</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            </p>
+            <ul class="likes">
+              <li><img src="img/heart_outline_17px.png" alt="">128 Likes</li>
+              <li><img src="img/topic_17px.png" alt="">9 Comments</li>
+            </ul>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgbox">
+          <img src="img/post_2.jpg" alt="">
+        </div>
+        <div class="text">
+          <span>23 Feb 2022</span>
+          <h4>It's How many Times You Fall That Matters, Just Get up and try Again</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit
+           </p>
+            <ul class="likes">
+              <li><img src="img/heart_outline_17px.png" alt="">12 Likes</li>
+              <li><img src="img/topic_17px.png" alt="">199 Comments</li>
+            </ul>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgbox">
+          <img src="img/post_3.jpg" alt="">
+        </div>
+        <div class="text">
+          <span>27 Feb 2022</span>
+          <h4>It's How many Times You Fall That Matters, Just Get up and try Again</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+            <ul class="likes">
+              <li><img src="img/heart_outline_17px.png" alt="">50 Likes</li>
+              <li><img src="img/topic_17px.png" alt="">99 Comments</li>
+            </ul>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgbox">
+          <img src="img/post_4.jpg" alt="">
+        </div>
+        <div class="text">
+          <span>28 Feb 2022</span>
+          <h4>It's How many Times You Fall That Matters, Just Get up and try Again</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit
+          </p>
+            <ul class="likes">
+              <li><img src="img/heart_outline_17px.png" alt="">102 Likes</li>
+              <li><img src="img/topic_17px.png" alt="">1 Comments</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--end instagram post-->
+
+<!--contact section-->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="title">
+      <h3>Get In Touch</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ad.</p>
+    </div>
+    <div class="container_box">
+      <div class="box">
+       <div class="info">
+        <img src="img/house_30px.png" alt="">
+        <div class="text">
+          <h4>Durban</h4>
+          <p>443 Anton Lembede (Smith Street)</p>
+        </div>
+       </div>
+       <div class="info">
+        <img src="img/phone_30px.png" alt="">
+        <div class="text">
+          <h4>+27 555 677 566</h4>
+          <p>Mon to Fri 9am to 5pm</p>
+        </div>
+      </div>
+       <div class="info">
+        <img src="img/secured_letter_30px.png" alt="">
+        <div class="text">
+          <h4>example@delicious .com</h4>
+          <p>Send us your queryr anytime</p>
+        </div>
+       </div>
+      </div>
+      <div class="box">
+     <form action="" class="form" id="form">
+       <div class="inputbox">
+         <input type="text" class="textbox" name="name" placeholder="Enter your name">
+         <input type="email" class="textbox" name="email" placeholder="Enter email address">
+         <input type="text" class="textbox" name="subject" placeholder="Enter subject">
+       </div>
+     </form>
+      </div>
+      <div class="box">
+        <div class="msg">
+          <form action="" class="form" id="form">
+            <textarea name="" id="" class="message" placeholder="Type your message here..."></textarea>
+             <input type="button" value="Send Message" class="btn">
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!--end contact section-->
+
+
+
+<!--footer-->
+<section class="footer" id="footer">
+  <div class="container">
+    <div class="container_box">
+      <div class="box">
+        <h4>Opening Hours</h4>
+        <ul class="times">
+          <li>Monday - Friday <span>08:00 am - 10:00 pm</span></li>
+          <li>Saturday <span>08:00 am - 14:00 pm</span></li>
+          <li>Sunday <span>08:00 am - 12:00 pm</span></li>
+        </ul>
+      </div>
+      <div class="box">
+        <h4>Quick Link</h4>
+        <ul class="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#instagram">Instagram</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="box">
+        <h4>Newsletter</h4>
+        <div class="text">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, ipsa illum!</p>
+          <div class="newsletter">
+            <input type="email" name="email" placeholder="Your Email address" class="email">
+            <a href="#"><button class="btnSend"><img src="img/right_30px.png" alt=""></button></a>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+</section>
+<!--end footer-->
+
+<!--copyright-->
+<div class="copyright">
+  <div class="container">
+    <h6>Created By: <span>Nkululeko Mthethwa</span><img src="img/cool_20px.png" alt=""> | &copy;2022 | All Rights Reserved.</h6>
+    <ul class="sci">
+      <li><img src="img/facebook_f_20px.png" alt=""></li>
+      <li><img src="img/instagram_20px.png" alt=""></li>
+      <li><img src="img/twitter_20px.png" alt=""></li>
+    </ul>
+  </div>
+</div>
+<!--end copyright-->
+
+<!--go top-->
+<div class="scrollTop">
+  <a href="#home"><button class="goTop"></button></a>
+</div>
+<!--end top-->
+
+  <!--custome js-->
+  <script src="script.js"></script>
+</body>
+</html>
